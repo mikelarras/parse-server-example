@@ -24,7 +24,8 @@
     "watch": "babel-watch index.js"
   },
   "engines": {
-    "node": ">=4.3"
+    "node": "<17",
+    "npm": "8.0.0"
   },
   "devDependencies": {
     "babel-eslint": "10.1.0",
